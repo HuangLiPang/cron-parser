@@ -1,10 +1,11 @@
 {
-  "name": "cron-parser",
+  "name": "@huanglipang/cron-parser",
   "version": "2.16.3",
-  "description": "Node.js library for parsing crontab instructions",
+  "description": "Node.js library for customized parsing crontab instructions for privacy policy",
   "main": "lib/parser.js",
   "types": "lib/index.d.ts",
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harrisiirak/cron-parser.git"
+    "url": "git+https://github.com/huanglipang/cron-parser.git"
   },
   "keywords": [
     "cron",
@@ -54,5 +55,9 @@
   },
   "browser": {
     "fs": false
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/huanglipang/cron-parser/issues"
+  },
+  "homepage": "https://github.com/huanglipang/cron-parser#readme"
 }
